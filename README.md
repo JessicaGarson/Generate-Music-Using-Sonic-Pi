@@ -1,2 +1,2 @@
 # Channel Your Own Messica Arson
-Artist Code Collective Talk May 8th
+Art + Code Collective May 8th
