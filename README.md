@@ -1,2 +1,2 @@
-# Generate-Music-with-Sonic-Pi
+# Channel Your Own Messica Arson
 Artist Code Collective Talk May 8th
