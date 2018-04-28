@@ -138,6 +138,28 @@
           Beat_Stretch allows us to stretch or shrink the sample to match the number of beats
         </section>
         <section>
+          <h2>Adding distortion in</h2>
+          <pre><code>
+            live_loop :distort_all_the_things do
+              with_fx :distortion do
+                synth :zawa
+                sleep 0.4
+              end
+            end
+          </pre></code>
+        </section>
+        <section>
+          <h2>Attack</h2>
+          Attack is the portion of the envelope that represents the time taken for the amplitude to reach its maximum level. Essentially it is the initially build up of a sound.
+        </section>
+        <section>
+          <h2>Decay</h2>
+          The progressive reduction in amplitude of a sound over time. The decay phase starts as soon as the attack phase has reached its peak. In the decay phase, the signal level drops until it reaches the sustain level.
+        </section>
+        <section>
+          <h2>Let's adjust the attack and decay</h2>
+        </section>
+        <section>
           <h2>I can't wait to see what you build</h2>
           Email - jessica.garson@gmail.com
           <p>

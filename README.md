@@ -78,9 +78,26 @@ live_loop :my_voice do
   sleep 5
 end
 ```
+- Rate means the rate to play back. The default is 1. Playing the sample at rate 2 will play it back at double the normal speed. When we adjust the rate to 0.5 we slow it down.
 
-## Rate
-Rate means the rate to play back. The default is 1. Playing the sample at rate 2 will play it back at double the normal speed. When we adjust the rate to 0.5 we slow it down.
+- Beat_Stretch allows us to stretch or shrink the sample to match the number of beats
 
-## Beat_Stretch
-Beat_Stretch allows us to stretch or shrink the sample to match the number of beats
+## Adding in effects
+If we wanted to add in distortion we can add in this way.
+```ruby
+live_loop :distort_all_the_things do
+  with_fx :distortion do
+    synth :zawa
+    sleep 0.4
+  end
+end
+```
+
+## Attack and decay
+– Attack is the portion of the envelope that represents the time taken for the amplitude to reach its maximum level. Essentially it is the initially build up of a sound.
+- Decay is the progressive reduction in amplitude of a sound over time. The decay phase starts as soon as the attack phase has reached its peak. In the decay phase, the signal level drops until it reaches the sustain level.
+
+## I hope you make really cool music
+Please let me know what you build.
+- Twitter - @JessicaGarson
+- Email - Jessica.Garson@gmail.com
