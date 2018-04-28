@@ -64,15 +64,48 @@
         </section>
         <section>
           <h2>Where can I get this?</h2>
-          You can download Sonic Pi https://sonic-pi.net/
+          You can download Sonic Pi at https://sonic-pi.net/
         </section>
         <section>
           <h2>The documenation is in the IDE for you</h2>
           I got started by just changing the examples.
         </section>
-
+        <section>
+          <h2>Let's go on a tour of the IDE</h2>
+          We'll go through and see what the IDE looks like.
+        </section>
+        <section>
+          <h2>Basic syntax of a loop</h2>
+          <pre><code>
+            live_loop :name_your_loop do
+              synth :name_of_synth
+              sleep 0.25
+            end
+          </pre></code>
+        </section>
+        <section>
+          <h2>Enough talk let's rock</h2>
+          <pre><code>
+            live_loop :lets_start do
+              synth :pretty_bell
+              sleep 0.25
+            end
+          </pre></code>
+        </section>
+        <section>
+          <h2>Let's add in a sample</h2>
+          <pre><code>
+            live_loop :second_loop do
+              sample :loop_safari
+              sleep 0.75
+            end
+          </pre></code>
+        </section>
+        <section>
+          <h2>Let's record a sample</h2>
+          Do I have a volunteer to come up and record a sample.
+        </section>
     </div>
-
 </div>
 
 <script src="lib/js/head.min.js"></script>

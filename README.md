@@ -9,3 +9,30 @@ You can grab sonic pi [here](https://sonic-pi.net/)
 
 ## The Coolest Part of Sonic Pi
 The documentation is in the IDE for you.
+
+## Basic syntax of a loop
+The loops you are creating will typically loop like this.
+
+```ruby
+live_loop :name_your_loop do
+  synth :name_of_synth
+  sleep 0.25
+end
+```
+
+## Our first loop
+We'll type this into the buffer.
+```ruby
+live_loop :lets_start do
+  synth :pretty_bell
+  sleep 0.25
+end
+```
+
+## Now let's add in a sample
+```ruby
+live_loop :second_loop do
+    sample :loop_safari
+    sleep 0.75
+end
+```
