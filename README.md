@@ -46,3 +46,41 @@ live_loop :second_loop do
   sleep 0.75
 end
 ```
+
+## Let's add another loop for drum sounds
+We'll be using an if else statement to add some drum samples into our song.
+```ruby
+live_loop :drums do
+  if one_in(5)
+    sample :drum_cymbal_hard
+    sleep 0.5
+  else
+    sample :drum_tom_mid_hard
+    sleep 0.7
+  end
+end
+```
+
+## Working with samples
+We'll add this loop to the top of our song.
+```ruby
+live_loop :my_voice do
+  sample "/Users/jessicagarson/Documents/recordings/no.wav"
+  sleep 5
+end
+```
+
+## Let's adjust the Rate and Beat_Stretch of this sample
+We'll tweak this loop to create a strange effect.
+```ruby
+live_loop :my_voice do
+  sample "/Users/jessicagarson/Documents/recordings/no.wav", beat_stretch: 3, rate: 0.5
+  sleep 5
+end
+```
+
+## Rate
+Rate means the rate to play back. The default is 1. Playing the sample at rate 2 will play it back at double the normal speed. When we adjust the rate to 0.5 we slow it down.
+
+## Beat_Stretch
+Beat_Stretch allows us to stretch or shrink the sample to match the number of beats
