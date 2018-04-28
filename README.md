@@ -7,7 +7,7 @@ Sonic Pi is an IDE that allows you write ruby code that allows you to interact w
 ## Where to download
 You can grab Sonic Pi [here](https://sonic-pi.net/)
 
-## The Coolest Part of Sonic Pi
+## The coolest part of Sonic Pi
 The documentation is in the IDE for you.
 
 ## Basic syntax of a loop
