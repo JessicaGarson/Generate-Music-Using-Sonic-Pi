@@ -94,7 +94,7 @@ end
 ```
 
 ## Attack and decay
-- Attack is the portion of the envelope that represents the time taken for the amplitude to reach its maximum level. Essentially it is the initially build up of a sound.
+- Attack is the portion of the envelope that represents the time taken for the amplitude to reach its maximum level. Essentially it is the initial build up of a sound.
 - Decay is the progressive reduction in amplitude of a sound over time. The decay phase starts as soon as the attack phase has reached its peak. In the decay phase, the signal level drops until it reaches the sustain level.
 
 ## I hope you make really cool music
